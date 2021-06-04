@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+a{
+    text-decoration: none;
+}
+.active{
+    background-color: rgb(255, 0, 170);
+    color: black;
+    font-weight: bold;
+}
+body{
+    background-color:rgba(0, 255, 255, 0.329);
+}
+.bgcolor{
+    background-color:rgba(106, 142, 35, 0.493);
+}
+
+.mdi-36px {
+    font-size: 39px;
+    margin-right: 5px;
+}
+.btn{
+    border-radius:5px;
+    
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 500;
+    color: white;
+}
