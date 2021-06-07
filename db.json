@@ -75,8 +75,8 @@
     
         {
           "id":4,
-          "imageurl":"https://rukminim1.flixcart.com/image/416/416/jjg15zk0/mobile/s/p/d/oppo-find-x-cph1871-original-imaf7ywhnkvb3qxv.jpeg?q=70",
-          "productname":"OPPO Find X",
+          "imageurl":"https://m.media-amazon.com/images/I/61PDbUd1VaL._AC_UY218_.jpg",
+          "productname":"OnePlus R9 5G",
           "description":"A Panoramic Arc Screen, an AI-enhanced 3D Camera, a Qualcomm Snapdragon 845 processor, the ColorOS 5.1 and a number of nifty features come together to give birth to the OPPO Find X. Watch videos on its gorgeous screen, take amazing selfies, and send fun 3D Omojis - do all these and much more with greater ease, thanks to the Google Assistant.",
           "price":60990,
           "productdetails":[
@@ -99,7 +99,7 @@
     
         {
           "id":5,
-          "imageurl":"https://rukminim1.flixcart.com/image/416/416/jpsnma80/mobile/x/x/j/lg-v30-plus-lgh930ds-ainvsv-original-imafbydem3mztvsg.jpeg?q=70",
+          "imageurl":"https://images-na.ssl-images-amazon.com/images/I/71uGY3xvkRL._SL1500_.jpg",
           "productname":"LG V30+",
           "description":"Click pictures and selfies like a professional by buying this smartphone from LG. Featuring a rear dual-camera system (16 MP and 13 MP) and a 5-megapixel wide-angle front camera, the LG V30+ ThinQ helps you take mind-blowing photographs and selfies without any hassle. This smartphone also features the AI CAM, which identifies what you're trying to capture and suggests a filter so good that everybody wants to click a selfie or two with you.",
           "price":60000,
@@ -147,8 +147,8 @@
     
         {
           "id":7,
-          "imageurl":"https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/z/j/k/9-128-d-ta-1087-ds-nokia-6-original-imafg98ny4rn7gcq.jpeg?q=70",
-          "productname":"Nokia 9",
+          "imageurl":"https://m.media-amazon.com/images/I/61IwksZ-DGL._AC_UY218_.jpg",
+          "productname":"OnePlus 9R 5G (Lake Blue, 8GB RAM, 128GB Storage)",
           "description":"Be it colourful photos or classic black-and-white pictures, you can click them all with this stunning smartphone from Nokia. Featuring five 12-megapixel cameras on its back and a 20-megapixel front camera, this handset gives smartphone photography a whole new meaning. And, to make things even better, this smartphone also boasts the Pro Camera UI that lets you make adjustments to different camera settings, such as ISO and white balance, to help your pictures shine like they’re meant to be.",
           "price":56299,
           "productdetails":[
@@ -315,8 +315,8 @@
     
         {
           "id":14,
-          "imageurl":"https://rukminim1.flixcart.com/image/416/416/kmthz0w0/mobile/l/l/q/x3-pro-mzb08ifin-poco-original-imagfn94uuy9u7a2.jpeg?q=70",
-          "productname":"POCO X3 Pro",
+          "imageurl":"https://m.media-amazon.com/images/I/91dLTREdG1L._AC_UY218_.jpg",
+          "productname":"Samsung Galaxy S21 Ultra 5G ",
           "description":"For fast computing on the move, impressive photos, and all-day-long, uninterrupted performance, the POCO X3 Pro is the right device for you. This smartphone features the Qualcomm Snapdragon 860 for smooth function, 16.94-cm (6.67) FHD+ Display for clear visuals, and a 5160 mAh Battery to ensure that your smartphone does not run out of battery quickly.",
           "price":20999,
           "productdetails":[
@@ -855,7 +855,7 @@
         },
         {
           "id":5,
-          "imageurl":"https://cdn2.chrono24.com/images/uhren/17792400-fc97ora2ecnt1anzt5wumyvp-Zoom.jpg",
+          "imageurl":"https://m.media-amazon.com/images/I/41tYH9E+UBL._AC_UL320_.jpg",
           "productname":"Hublot",
           "description":"Hublot BIG BANG ONE CLICK SANG BLEU KING (Gold, Pink Diamonds)",
           "price":2200000,
@@ -872,7 +872,7 @@
         },
         {
           "id":6,
-          "imageurl":"https://www.thewatchsource.co.uk/images/watches/ab202016c961-277s.jpg",
+          "imageurl":"https://images-na.ssl-images-amazon.com/images/I/518GIsIKYIL._SX497_BO1,204,203,200_.jpg",
           "productname":"Breitling",
           "description":"Breitling Superocean Heritage II 46 Steel AB202016/C961",
           "price":325000,
@@ -1041,5 +1041,262 @@
           "size":"46 mm"
         }
     
-    ]    
+    ] ,
+    "headphones":[
+      {
+        "id":1,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/61N6Ai7RkJL._SL1500_.jpg",
+        "productname":"Sony Wireless Headphones",
+        "description":"Sony WH-CH710N Noise Cancelling Wireless Headphones : Bluetooth Over The Ear Headset with Mic for Phone-Call, 35 Hours Battery Life, Quick Charge and Google Assitant -                             Black",
+        "price":14990,
+        "productdetails":[ {
+                                       "Brand":"Sony",
+                                       "Manufacturer":	"Sony, 18001037799",
+                                       "Model":"WH-CH710N/BZIN",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 A batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"22.5 x 20.9 x 24.5 cm"
+      },
+      {
+        "id":2,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/615kVct65LL._SL1000_.jpg",
+        "productname":"JBL Wireless Headphones",
+        "description":"JBL Tune 750BTNC by Harman Over-Ear Wireless Active Noise-Cancelling Headphones with 15 Hours Playtime (Black)",
+        "price":9499,
+        "productdetails":[ {
+                                       "Brand":"JBL",
+                                       "Manufacturer":	"Harman International Industries, Inc",
+                                       "Model":"JBLT750BTNCBLK",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium Metal batteries required."      
+                                 } 
+                              ],
+        "size":"20.5 x 6.2 x 22.3 cm"
+      },
+      {
+        "id":3,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/710XhG8bO3L._SL1500_.jpg",
+        "productname":"boAt Wireless Headphones",
+        "description":"boAt Rockerz 550 Over-Ear Wireless Headphone with Ergonomic Aesthetics, Plush Padded Earcups, Immersive Audio, Bluetooth v5.0 & Upto 20H Playback (Black)",
+        "price":4999,
+        "productdetails":[ {
+                                       "Brand":"boAt",
+                                       "Manufacturer":	"BoAt",
+                                       "Model":"Rockerz 550",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium ion batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"16.2 x 8.6 x 22.4 cm"
+      },
+      {
+        "id":4,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/811f%2BDPKP-L._SL1500_.jpg",
+        "productname":"Boult Wireless Headphones",
+        "description":"Boult Audio ProBass Ranger Over-Ear Wireless Bluetooth Headphones with Microphone, Headset with Noise Cancellation & Long Battery Life",
+        "price":7999,
+        "productdetails":[ {
+                                       "Brand":"Boult",
+                                       "Manufacturer":	"Exotic Mile, 9555-602-502",
+                                       "Model":"ProBassRanger",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 A batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"18 x 22 x 9 cm"
+      },
+      {
+        "id":5,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/71PVecPhPUL._SL1500_.jpg",
+        "productname":"Leaf Wireless Headphones",
+        "description":"Leaf Bass 2 Wireless Bluetooth Headphones with Mic and 15 Hours Battery Life, Over-Ear Headphones with Super Soft Cushions and Deep Bass (Black)",
+        "price":2499,
+        "productdetails":[ {
+                                       "Brand":"Leaf",
+                                       "Manufacturer":	"Leaf Innovation Private Limited",
+                                       "Model":"Bass 2_0001",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium ion batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"19 x 8 x 20 cm"
+      },
+      {
+        "id":6,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/714t%2BTSlpEL._SL1500_.jpg",
+        "productname":"Edifier Wireless Headphones",
+        "description":"Edifier W828NB Wireless Bluetooth Headphones - Ergonomic, Active Noise Canceling (ANC) - White",
+        "price":10990,
+        "productdetails":[ {
+                                       "Brand":"Edifier",
+                                       "Manufacturer":	"Edifier",
+                                       "Model":"001",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 A batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"16 x 11 x 2 cm"
+      },
+      {
+        "id":7,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/71fss0M-hyL._SL1500_.jpg",
+        "productname":"Tribit Wireless Headphones",
+        "description":"Tribit QuietPlus Wireless Bluetooth Headphones,32dB Hybrid Active Noise Cancelling & HiFi Stereo Sound Over Ear Headphone,Deep Bass, Built-In CVC8.0 Mic,30 Hours                              Playtime,Headsets for Travel/Work/Home",
+        "price":5999,
+        "productdetails":[ {
+                                       "Brand":"Tribit",
+                                       "Manufacturer":	"Tribit",
+                                       "Model":"BTH72",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 A batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"16.99 x 8.2 x 19.71 cm"
+      },
+      {
+        "id":8,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/71lczMQC1bL._SL1178_.jpg",
+        "productname":"Fire-Boltt Wireless Headphones",
+        "description":"Fire-Boltt Blast 1400 Over -Ear Bluetooth Wireless Headphones with 25H Playtime, Thumping Bass, Lightweight Foldable Compact Design with Google/Siri Voice Assistance",
+        "price":4999,
+        "productdetails":[ {
+                                       "Brand":"Fire-Boltt",
+                                       "Manufacturer":	"Fire-Boltt, Boltt Games Pvt Ltd",
+                                       "Model":"BH1400",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium ion batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"8 x 19 x 25 cm"
+      },
+      {
+        "id":9,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/61OU6uUy1SL._SL1500_.jpg",
+        "productname":"BoAt Wireless Headphones",
+        "description":"boAt Rockerz 510 Bluetooth On-Ear Headphone with Mic(Furious Blue)",
+        "price":3990,
+        "productdetails":[ {
+                                       "Brand":"boAt",
+                                       "Manufacturer":	"Imagine Marketing Pvt Ltd",
+                                       "Model":"Rockerz-510",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium Polymer batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"19 x 7.5 x 20 cm"
+      },
+      {
+        "id":10,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/61rEoEQqn0L._SL1500_.jpg",
+        "productname":"Sony Wireless Headphones",
+        "description":"Sony WH-CH710N Noise Cancelling Wireless Headphones : Bluetooth Over The Ear Headset with Mic for Phone-Call, 35 Hours Battery Life, Quick Charge and Google Assitant -                              Blue",
+        "price":14990,
+        "productdetails":[ {
+                                       "Brand":"Sony",
+                                       "Manufacturer":	"Sony, 18001037799",
+                                       "Model":"WH-CH710N/LZIN",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 A batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"22.5 x 20.9 x 24.5 cm"
+      },
+      {
+        "id":11,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/61T-O7TvBCL._SL1288_.jpg",
+        "productname":"Macmerise Wireless Headphones",
+        "description":"Macmerise Iconic Ironman Active Noise Cancellation Wireless On Ear Headphones",
+        "price":5999,
+        "productdetails":[ {
+                                       "Brand":"Macmerise",
+                                       "Manufacturer":	"Macmerise Celfie Design Private Limited",
+                                       "Model":"Ironman",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"2 batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"17.5 x 13 x 9.2 cm"
+      },
+      {
+        "id":12,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/818c8Lnb8GL._SL1500_.jpg",
+        "productname":"Skull Candy Wireless Headphones",
+        "description":"Skullcandy Hesh Evo Wireless Over-Ear Headphone with Up to 36 Hours of Battery, Rapid Charge (10 min = 3 hrs), Noise-Isolating Fit and Built-in Tile Finding Technology                              (Blue)",
+        "price":14999,
+        "productdetails":[ {
+                                       "Brand":"Skull Candy",
+                                       "Manufacturer":	"Skullcandy Inc. P. O. Box 25442, Salt Lake City, UT 84125 USA",
+                                       "Model":"S6HVW-N745",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium Polymer batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"21.8 x 20.7 x 5.8 cm"
+      },
+      {
+        "id":13,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/71zPb%2BU1ybL._SL1500_.jpg",
+        "productname":"Sennheiser Wireless Headphones",
+        "description":"Sennheiser HD 458 BT Over Ear Wireless Headphones with Active Noise Cancellation Headphone",
+        "price":14990,
+        "productdetails":[ {
+                                       "Brand":"Sennheiser",
+                                       "Manufacturer":	"Sennheiser, Sennheiser electronic GmbH & Co. KG. Am Labor 1. DE - 30900 Wedemark Germany",
+                                       "Model":"HD 458BT",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium Polymer batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"12.7 x 10.3 x 17.6 cm"
+      },
+      {
+        "id":14,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/61ae1ov0eXL._SL1288_.jpg",
+        "productname":"Sony Wireless Headphones",
+        "description":"Macmerise Classic Captains Shield Active Noise Cancellation Wireless On Ear Headphones",
+        "price":5999,
+        "productdetails":[ {
+                                       "Brand":"Macmerise",
+                                       "Manufacturer":	"Macmerise Celfie Design Private Limited",
+                                       "Model":"Captain America",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"2 A batteries required. (included)"      
+                                 } 
+                              ],
+        "size":"17.5 x 13 x 9.2 cm"
+      },
+      {
+        "id":15,
+        "imageurl":"https://images-na.ssl-images-amazon.com/images/I/7118TJAtRXL._SL1500_.jpg",
+        "productname":"Marshall Wireless Headphones",
+        "description":"Marshall Major III Bluetooth Wireless On-Ear Headphones (Black)",
+        "price":8990,
+        "productdetails":[ {
+                                       "Brand":"Marshall",
+                                       "Manufacturer":	"Marshall",
+                                       "Model":"4092186",
+                                        "Connector Type":"bluetooth",
+                                       "Model Name":"Headphones",
+                                      "Batteries":"1 Lithium Polymer batteries required."      
+                                 } 
+                              ],
+        "size":"16 x 16 x 8.64 cm"
+      }
+  ]  
 }

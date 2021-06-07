@@ -12,6 +12,7 @@ export class LaptopsComponent implements OnInit {
 
   products;
   mySubscription: any;
+  searchTerm:string;
 
   constructor(private dsObj:DataService) { }
 

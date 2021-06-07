@@ -8,3 +8,10 @@
         margin: auto;
     }
 }
+
+h2{
+    font-family: 'Zilla Slab', serif;
+}
+#img:hover{
+    transform: scale(1.2);
+}

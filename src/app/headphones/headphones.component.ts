@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
-import { Subscription} from 'rxjs';
+import { Subscription} from 'rxjs'
 
 @Component({
-  selector: 'app-watches',
-  templateUrl: './watches.component.html',
-  styleUrls: ['./watches.component.css']
+  selector: 'app-headphones',
+  templateUrl: './headphones.component.html',
+  styleUrls: ['./headphones.component.css']
 })
-export class WatchesComponent implements OnInit {
+export class HeadphonesComponent implements OnInit {
 
   products;
   mySubscription: any;
@@ -16,7 +16,7 @@ export class WatchesComponent implements OnInit {
   constructor(private dsObj:DataService) { }
 
   ngOnInit(): void {
-    this.mySubscription=this.dsObj.getWatches().subscribe(
+    this.mySubscription=this.dsObj.getHeadphones().subscribe(
       res=>{
         this.products=res;
         
@@ -27,5 +27,6 @@ export class WatchesComponent implements OnInit {
     );
     
   }
+
 
 }

@@ -1,23 +1,105 @@
 <nav class="navbar navbar-expand-lg navbar-light " style="background-color: black">
-  <a class="navbar-brand text-white" href="#"><i class="fas fa-store-alt" style="font-size: 60px;"></i></a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(0, 255, 0);color: chartreuse;">
+  <a class="navbar-brand text-white ms-5" style="font-size: 40px;"><i class="fas fa-store-alt" style="font-size: 40px;"></i> E-buy</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(229, 255, 0);color: chartreuse;">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto text-center">
-      <li class="nav-item ">
-        <a class="nav-link text-white" routerLink="home" routerLinkActive="active" >Home</a>
+      <li class="nav-item ms-5">
+        <a class="nav-link text-white " routerLink="home" routerLinkActive="active"  >HOME <i class="fas fa-home"></i></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link text-white"  routerLink="signup" routerLinkActive="active">Sign Up</a>
+      
+      <li class="nav-item ms-5">
+
+        <a class=" text-white  mod nav-link " data-bs-target="#md" data-bs-toggle="modal">Sign Up<i class="fas fa-sign-in-alt"></i></a>
+
+
+    <div class="modal " id="md" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content background">
+               <div class="modal-body ">
+                    <button class="btn btn-danger float-end " data-bs-dismiss="modal">X</button>
+                    <div class="container">
+
+                        <h4 class="text-center text-white mt-5 mb-4">CREATE ACCOUNT</h4>
+
+                        <form>
+                           <div class="form-floating mb-3 ms-sm-4 me-sm-4"> 
+                               <input type="text" name="firstname" id="fn" class="form-control " placeholder="Full Name" >
+                               <label for="fn">Full Name</label>
+                           </div>
+               
+                           <div class="form-floating mb-3 ms-sm-4 me-sm-4">
+                                <input type="text" name="email" id="em" class="form-control" placeholder="Email">
+                                <label for="em">Email</label>
+                           </div>
+
+                           <div class="form-floating ms-sm-4 me-sm-4 mb-3 ">
+                               <input type="text" name="mobilenumber" id="mbno" class="form-control" placeholder="Mobile Number" >
+                                <label for="mbno">Mobile Number</label>
+                           </div>
+               
+                           <div class="form-floating mb-3 ms-sm-4 me-sm-4">
+                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                            </select>
+                            <label for="floatingSelect">Gender</label>
+                          </div>
+
+                          <div class="row g-3 mb-3 ms-sm-3 me-sm-3">
+                            <div class="col-md">
+                              <div class="form-floating">
+                                <input type="password" class="form-control" id="pw" placeholder="Password">
+                                <label for="pw">Password</label>
+                              </div>
+                            </div>
+                            <div class="col-md">
+                              <div class="form-floating ">
+                                <input type="password" class="form-control" id="rpw" placeholder="Password">
+                                <label for="rpw">Retype-Password</label>
+                              </div>
+                            </div>
+                          </div>
+
+
+                         
+               
+                            <div class="form-check mb-2 d-flex justify-content-center">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label text-white ms-1 mt-1" for="flexCheckDefault">
+                                  I agree to the terms and conditions 
+                                </label>
+                              </div>
+
+                            <div class="mb-3 text-center">
+                              <button class="btn btn-warning"><i class="fas fa-user-plus me-2"></i>Register</button>
+                            </div>
+               
+                            
+               
+               
+               
+                        </form>
+                    </div>
+                    
+                           
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
       </li>
      
-      <li class="nav-item">
-        <a class="nav-link text-white"  routerLink="login" routerLinkActive="active">Login</a>
+      <li class="nav-item ms-5">
+        <a class="nav-link text-white"  routerLink="login" routerLinkActive="active">LOGIN <i class="fas fa-sign-in-alt"></i></a>
       </li>
-      <li class="nav-item">
-          <a class="nav-link text-white"  routerLink="contactus" routerLinkActive="active">My Cart <i class="fas fa-cart-plus"></i></a>
+      <li class="nav-item ms-5">
+          <a class="nav-link text-white"  routerLink="contactus" routerLinkActive="active">MY CART <i class="fas fa-cart-plus"></i></a>
         </li>
     </ul>
    
@@ -36,7 +118,7 @@
   </div>
 
   <div class=" col-sm-4 col-md col-6 col mt-5">
-    <h5 class="text-dark ms-2">MATINEE</h5>
+    <h5 class="text-dark ms-2">E-buy</h5>
   
     <ul class="list-unstyled ">
     <li><a href="#!" class="text-dark ms-2">Contact</a></li>

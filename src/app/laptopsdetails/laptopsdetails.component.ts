@@ -10,3 +10,5 @@ export class LaptopsdetailsComponent  {
 
   @Input() productObj:Laptops;
 }
+
+

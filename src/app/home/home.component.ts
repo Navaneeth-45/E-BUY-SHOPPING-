@@ -23,5 +23,10 @@ export class HomeComponent implements OnInit {
     this.router.navigateByUrl("/watches")
   }
 
+  headphonesDetails(){
+    this.router.navigateByUrl("/headphones")
+  }
+
+
 
 }
