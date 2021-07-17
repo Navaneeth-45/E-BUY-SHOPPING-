@@ -1,49 +1,22 @@
-import { Component,OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { DataService } from './data.service';
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-cart',
+  templateUrl: './cart.component.html',
+  styleUrls: ['./cart.component.css']
 })
-export class AppComponent implements OnInit {
-  title = 'Shopping';
-  constructor(public us:DataService,private router:Router){}
-     
-
-
-onSignup(userObj:any){
- 
-  
-  this.us.createUser(userObj).subscribe(
-    res=>{
-      if(res.message==="User created"){
-        alert("User created")
-        //navigate to login component
-      }
-      else{
-        alert(res.message)
-      }
-    },
-    err=>{
-      console.log(err)
-      alert("Something went wrong in user creation")
-    }
-  )
-  }
-  userLogout(){
-    localStorage.clear();
-    this.us.userLoginStatus=false;
-  }
-
-
+export class CartComponent implements OnInit {
   userObj;
+  total:number=0;
    count;
    userCartObj;
    products=[];
 
-
+  constructor(private hc:HttpClient,private us:DataService) { 
+    
+  }
 
   ngOnInit(): void {
 
@@ -66,6 +39,7 @@ onSignup(userObj:any){
                }
                else{
                  this.count=prodObj.products.length;
+                 this.amount()
                }
             })
           }
@@ -91,4 +65,13 @@ onSignup(userObj:any){
         )
     
   }
-}
+
+  amount(){
+    for (let p of this.products) {
+      this.total=this.total+p.price
+    }  
+  
+  }
+  }
+
+

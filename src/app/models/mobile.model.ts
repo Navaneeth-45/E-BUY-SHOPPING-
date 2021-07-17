@@ -19,14 +19,7 @@ export interface Mobiles{
             processorType:string;
             processorCore:string;
             clockspeed:string;
-            dimensions:[
-              {
-                width:string;
-                height:string;
-                depth:string;
-                weight:string;
-              }
-            ]
+          
           }
         ]
       

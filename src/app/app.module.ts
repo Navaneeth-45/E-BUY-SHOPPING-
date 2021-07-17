@@ -16,6 +16,11 @@ import { WatchesdetailsComponent } from './watchesdetails/watchesdetails.compone
 import { SearchPipe } from './search.pipe';
 import { HeadphonesComponent } from './headphones/headphones.component';
 import { HeadphonesdetailsComponent } from './headphonesdetails/headphonesdetails.component';
+import { WatchesdisplayComponent } from './watchesdisplay/watchesdisplay.component';
+import { EarpodsdisplayComponent } from './earpodsdisplay/earpodsdisplay.component';
+import { LaptopsdisplayComponent } from './laptopsdisplay/laptopsdisplay.component';
+import { MobilesdisplayComponent } from './mobilesdisplay/mobilesdisplay.component';
+import { CartComponent } from './cart/cart.component';
 
 
 @NgModule({
@@ -33,6 +38,11 @@ import { HeadphonesdetailsComponent } from './headphonesdetails/headphonesdetail
     SearchPipe,
     HeadphonesComponent,
     HeadphonesdetailsComponent,
+    WatchesdisplayComponent,
+    EarpodsdisplayComponent,
+    LaptopsdisplayComponent,
+    MobilesdisplayComponent,
+    CartComponent,
     
   ],
   imports: [
