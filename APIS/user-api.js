@@ -12,6 +12,7 @@ const cloudinary=require("cloudinary").v2;
 const multer=require("multer");
 const {CloudinaryStorage}=require("multer-storage-cloudinary");
 const { consoleTestResultHandler } = require("tslint/lib/test")
+require("dotenv").config()
 
 //configure cloudinary
 cloudinary.config({
@@ -247,7 +248,7 @@ userApi.post("/login",errorHandler(async (req,res)=>{
        }
        else{
            //create token
-           let signedToken= jwt.sign({username:credentials.username},'abcdef',{expiresIn:10})
+           let signedToken= jwt.sign({username:credentials.username},process.env.SECRET,{expiresIn:10})
            //send token to client
            res.send({message:"login success", token: signedToken, username:credentials.username,userObj:user})
        }

@@ -2,6 +2,7 @@ const exp=require("express")
 const mc=require("mongodb").MongoClient;
 const app=exp()
 const path = require("path")
+require("dotenv").config()
 
 //connect angular app with express server
 app.use(exp.static(path.join(__dirname, './dist/SHOPPING/')))
@@ -14,7 +15,7 @@ app.use("/user",userApi)
 
 
 //connection string
-const databaseUrl="mongodb+srv://navaneeth_45:navaneeth_45@cluster0.vbpsu.mongodb.net/mydb?retryWrites=true&w=majority"
+const databaseUrl=process.env.DATABASE_URL;
 
 let databaseObj;
 let userCollectionObj;
@@ -49,5 +50,5 @@ app.use((err,req,res,next)=>{
     res.send({message:`${err.message}`})
 })
 
-const port=4200;
+const port=process.env.PORT||8080;
 app.listen(port,()=>console.log(`server listening on port ${port}`))
